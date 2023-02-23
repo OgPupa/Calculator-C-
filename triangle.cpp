@@ -1,6 +1,7 @@
 #include "Triangle.h"
 #include <iostream>
 #include <cmath>
+using namespace std;
 
 void Triangle::set(float a1, float b1, float c1) {
 	this->a = a1;
@@ -13,7 +14,7 @@ bool Triangle::exst_tr() {
 }
 
 void Triangle::show() {
-	std::cout << "Ïëîùàäü = " << this->square() << " Ïåðèìåòð = " << this->perimetr() << "\n";
+	cout << " " << this->square() << " " << this->perimetr() << "\n";
 
 }
 
